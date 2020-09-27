@@ -36,7 +36,7 @@ function displayPics(){
     }
   }
 
-  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `const to `const`.
+  // TODO: In a sent. or two, explain why the previous line of code threw an error when we changed the constiable declaration from `const to `const`.
   // console.log(rando); - rando was not defined, as it is a block function that was part of the function above (line 31-35).
 
   console.log(viewed);
