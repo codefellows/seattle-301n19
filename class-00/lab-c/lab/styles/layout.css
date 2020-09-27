@@ -1,7 +1,7 @@
 nav, article, aside, footer section {
     margin: 0 auto;
     width: 900px;
-  }
+}
 
 aside {
 padding-top: 30px;
@@ -26,7 +26,7 @@ text-indent: 0;
 section hr {
     border-bottom: 1px solid #eee;
     height: 0;
-  }
+}
   
   
 footer section p{
