@@ -199,8 +199,8 @@ Student.prototype.scopeArrow = () => console.log(this);
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//convert the resalt
+//The value of this will be the new object created when the function is invoked.With a regular function this represents the object that calls the function:
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//
+//With arrow functions the this keyword always represents the object that defined the arrow function.
 // 3. Explain why "this" is different when an arrow function is used.
-//
+//With arrow functions the this keyword always represents the object that defined the arrow function.With an arrow function this represents the owner of the function:
