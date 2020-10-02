@@ -18,7 +18,7 @@ const votes = [];
 
 function Product(name) {
   this.name = name;
-  this.path = 'img/' + name + '.jpg';
+  this.path = `img/${name}.jpg`;
   this.votes = 0;
   this.views = 0;
   allProducts.push(this);
@@ -36,7 +36,7 @@ function displayPics(){
     }
   }
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `const to `const`.
-  // because rando was declared in the function above on line 33 - it is in functional scope.
+  // ANSWER: because rando was declared in the function above on line 33 - it is in functional scope.
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
@@ -61,9 +61,7 @@ function handleClick(event) {
   for(let i = 0; i < names.length; i++){
     if(event.target.id === allProducts[i].name) {
       allProducts[i].votes += 1;
-      // console.log(event.target.id + ' has ' + allProducts[i].votes + ' votes in ' + allProducts[i].views + ' views');
-      console.log('${event.target.id} has ${allProducts[i].votes} votes in ${allProducts[i].views} views');
-      //                                      the linter hates this but it runs?
+      console.log(`${event.target.id} has ${allProducts[i].votes} votes in ${allProducts[i].views} views`);
     }
   }
   localStorage.busmall = JSON.stringify(allProducts);
@@ -72,11 +70,9 @@ function handleClick(event) {
 }
 
 function showList() {
-  for(const i = 0; i < allProducts.length; i++) {
+  for(let i = 0; i < allProducts.length; i++) {
     const liEl = document.createElement('li');
-    // liEl.textContent = allProducts[i].name+ ' has ' + allProducts[i].votes + ' votes in ' + allProducts[i].views + ' views';
-    liEl.textContent = ('${allProducts[i].name}+ has ${allProducts[i].votes} + ${allProducts[i].views} views');
-    //                                          the linter hates this but it runs?
+    liEl.textContent = `${allProducts[i].name} has ${allProducts[i].votes} votes in ${allProducts[i].views} views`;
     list.appendChild(liEl);
   }
 }
