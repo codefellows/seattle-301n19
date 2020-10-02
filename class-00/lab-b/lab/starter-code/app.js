@@ -39,8 +39,8 @@ console.log('Without parens:', withoutParens('Code 301'));
 const oneLiner = course => `I cam currently enrolled in ${course}`;
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log('As a one-liner:', oneLiner('Code 301'));
-
+console.log('As a one-liner:', oneLiner('Code 301'));
+// done
 
 // STEP 5
 // What if we have multiple parameters?
