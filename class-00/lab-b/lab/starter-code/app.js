@@ -29,8 +29,8 @@ const withoutParens = course => {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log('Without parens:', withoutParens('Code 301'));
-
+console.log('Without parens:', withoutParens('Code 301'));
+// done
 
 // STEP 4
 // If the code block contains a single line of code, we can write everything on one line
