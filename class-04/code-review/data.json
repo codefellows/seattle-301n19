@@ -1,0 +1,22 @@
+[
+    {
+      "FullName": "Ray Ruazol",
+      "age": 32,
+      "works":true
+    },
+    {
+      "FullName": "Millie Ruazol",
+      "age": 5,
+      "works":false
+    },
+    {
+      "FullName": "Tim Stella",
+      "age": 32,
+      "works":true
+    },
+    {
+      "FullName": "Maxwell Stella",
+      "age": 16,
+      "works":false
+    }
+  ]
