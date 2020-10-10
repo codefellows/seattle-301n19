@@ -1,5 +1,11 @@
 # jQuery Selectors and Events
 
+## Announcements
+
+- Late submission penalties:  Labs (-2pts) and Code Challenges (-1pts)
+- 1:1 canvas assignment meeting (Canvas)
+
+
 ## Overview
 
 Today's class will focus on jQuery selectors and events. jQuery is an excellent library for DOM traversal and manipulation. We will also go through examples of using jQuery to handle events. 
@@ -9,9 +15,6 @@ We will begin a lab assignment today which will carry over to the assignment for
 ## Daily Plan
 
 - Warm-up exercise
-- Review code challenges
-- Introduction of today's code challenge topic
-- Code review of lab assignment
 - jQuery selectors
 - jQuery events
 - Code Demo

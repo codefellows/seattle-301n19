@@ -1,0 +1,16 @@
+body {
+    background: grey;
+    text-align: center;
+    margin: 4em;
+    font-family: sans-serif;
+  }
+  
+  img {
+    width: 50%;
+  }
+  
+  div {
+    border: 2px purple solid;
+    margin: 15px;
+  }
+  
