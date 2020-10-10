@@ -119,9 +119,18 @@ let sum = (a,b,c,d) => {
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 console.log(sum(1, 2, 3, 4));
+// done
 
 
-let objectLit = function() {
+// let objectLit = function() {
+//   return {
+//     key1: 'value1',
+//     key2: 'value2',
+//     key3: 'value3',
+//   };
+// };
+
+let objectLit = () => {
   return {
     key1: 'value1',
     key2: 'value2',
@@ -129,9 +138,10 @@ let objectLit = function() {
   };
 };
 
-// TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(objectLit());
 
+// TODO: Uncomment the following line of code to see the output in the browser console
+console.log(objectLit());
+// done
 
 let sumAndProduct = function(a, b) {
   let sum = a + b;
