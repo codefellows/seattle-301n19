@@ -1,5 +1,19 @@
 # Node, npm, and Express
 
+## Feedback
+
+- TA/Help hours:
+    - Monday: 1-6p, 6:30-9:30p (LIMITED, just myself)
+    - Tuesday: 1-6p, 6:30-9:30p
+    - Wednesday: 1-6p, 6:30-9:30p
+    - Thursday: 1-6p, 6:30-9:30p
+    - Friday: 1-6p
+    - Saturday: 1-6p
+    - Sunday: No TAs/instructors
+    Note:  
+        -Tutors are available!  See Slack (Message Heather Cherewaty) or email tutoring@codefellows.com
+        -Possible TA assistance past 9:30p?
+
 ## Overview
 
 Today we will take a step into the back end, beginning to write a proper `server.js` file to serve API data to the City Explorer client application. You will continue to build out this file through lab 9, working with a new partner each day.
