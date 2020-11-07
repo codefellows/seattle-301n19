@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: bisque;
+}
+
+header ul {
+  height: 75px;
+  background-color: darkgoldenrod;
+}
+
+header li {
+  display: inline-block;
+  line-height: 75px;
+  margin-right: 10px;
+}
+
+
+#task-section > h1 {
+  margin: 15px;
+}
+
+.complete {
+  text-decoration-line: line-through;
+}

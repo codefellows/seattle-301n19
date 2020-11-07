@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('./layout/head') %>
+</head>
+<body>
+  <header>
+    <%- include('./layout/header') %>
+  </header>
+
+  <section>
+    <h1>Task Details</h1>
+    <ul>
+      <li>
+        <h2><%= task.id %></h2>
+        <p><%= task.title %></p>
+        <p><%= task.description %></p>
+        <p><%= task.contact %></p>
+        <p><%= task.status %></p>
+        <p><%= task.category %></p>
+        <p><%= task.due %></p>
+        <form action="/delete/<%= task.id %> ?_method=DELETE" method="POST">
+          <button type="submit">Delete</button>
+        </form>
+      </li>
+    </ul>
+  </section>
+</body>
+
+</html>

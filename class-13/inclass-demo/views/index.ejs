@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('./layout/head') %>
+</head>
+<body>
+  <header>
+    <%- include('./layout/header') %>
+  </header>
+  <section id="task-section">
+    <h1>Current Tasks</h1>
+    <ul id="task-list">
+      <% tasks.forEach(task => { %>
+        <li class="<%= task.status %>">
+          <h2>Task:  <%= task.title %></h2>
+          <a href="/tasks/<%= task.id %>">View Details</a>
+          <form action="/complete/<%= task.id %> ?_method=PUT" method="POST">
+            <input type="hidden" name="status" value="complete">
+            <button type="submit">Complete Task</button>
+          </form>
+        </li>
+  </section>
+      
+    <% }) %>
+  </ul>
+</body>
+</html>
