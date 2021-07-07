@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Oswald:700|Yellowtail|Patrick+Hand');
 
-* {
+/* * {
   font-family: times;
-}
+} */
 
-body {
+/* body {
   background: #fff;
-}
+} */
 
-nav, article, aside, footer section {
+/* nav, article, aside, footer section {
   margin: 0 auto;
   width: 900px;
 }
@@ -41,9 +41,9 @@ nav {
   font-family: 'Abel', sans-serif;
   font-size: .65em;
   text-transform: uppercase;
-}
+} */
 
-nav ul {
+/* nav ul {
   float: right;
 }
 
@@ -164,4 +164,4 @@ footer section p{
   line-height: 1.5em;
   text-align: center;
   color: #aaa;
-}
+} */
